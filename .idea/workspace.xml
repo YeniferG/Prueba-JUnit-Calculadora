@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df89c82-1852-4016-993f-3d53da6069ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/sofka/app/calculator/BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/sofka/app/calculator/BasicCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +36,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Prueba/my-demo" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.BasicCalculatorTest.sum">
+  <component name="RunManager" selected="JUnit.BasicCalculatorTest.severalDivisions">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.App" />
       <module name="my-demo" />
@@ -49,6 +49,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.app.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.app.calculator" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.calculator.BasicCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicCalculatorTest.severalDivisions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.app.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.app.calculator" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.calculator.BasicCalculatorTest" />
+      <option name="METHOD_NAME" value="severalDivisions(java.lang.Double,java.lang.Double,java.lang.Double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicCalculatorTest.subtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.app.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.app.calculator" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.app.calculator.BasicCalculatorTest" />
+      <option name="METHOD_NAME" value="subtract" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,9 +132,15 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.BasicCalculatorTest.sum" />
+      <item itemvalue="JUnit.BasicCalculatorTest.subtract" />
+      <item itemvalue="JUnit.BasicCalculatorTest" />
+      <item itemvalue="JUnit.BasicCalculatorTest.severalDivisions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicCalculatorTest.severalDivisions" />
+        <item itemvalue="JUnit.BasicCalculatorTest" />
+        <item itemvalue="JUnit.BasicCalculatorTest.subtract" />
         <item itemvalue="JUnit.BasicCalculatorTest.sum" />
         <item itemvalue="Application.App" />
       </list>
